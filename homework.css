@@ -1,0 +1,101 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ul,li{
+	list-style: none;
+}
+/*上边滚动条*/
+.headline{
+	height: 21px;
+	/*width: 1600px;*/
+	background-color: #ccc;
+}
+.img{
+	float: left;
+	margin-left: 266px;
+	
+}
+.img>img{
+	margin-top: 2px;
+}
+.p1{
+	width: 1050px;
+	height: 21px;
+	position: absolute;
+	left: 291px;
+	overflow: hidden;
+}
+.p1>p{
+	width: 350px;
+	display: inline-block;
+	line-height: 21px;
+	font-size: 12px;
+	color: red;
+	position: absolute;
+	left: 850px;
+}
+/*下方轮播图*/
+.box{
+	height: 397px;
+	width: 1200px;
+	/*border:1px solid red;*/
+	margin: 50px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.slide>img{
+	height: 397px;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background:#ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+.nav .active{
+	background: red;
+	color: white;
+}
